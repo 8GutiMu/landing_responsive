@@ -78,3 +78,65 @@ h1{
     height: 50%;
     padding: 2%;
 }
+
+#contenedorVideo{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#contenedorVideo > h1{
+    padding: 2%;
+}
+
+.video{
+    width: 80%;
+    margin: 5%;
+    margin-top: 1%;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#formulario > h1{
+     padding: 2%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    
+}
+
+.formMargin{
+    
+    margin: 1%;
+    padding: 2%;
+}
+
+.formMargin:focus{
+    outline: 0;    
+}
+form > button{
+    background-color: darkgray;
+    width: 100%;
+    border: none;
+    padding: 1%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%; 
+    background-color: black;
+    color: cornsilk;
+    padding: 2%;
+    font-family: helvetica;
+    font-size: 80%;
+}
