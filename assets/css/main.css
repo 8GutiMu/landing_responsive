@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav{
+    background-color: gainsboro;
+}
+nav >ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 2%;
+    padding: 1%
+}
+
+nav > ul > li{
+    width: 6.5%;
+    list-style: none;
+    font-family: helvetica;
+    font-size: 80%;
+    background-color: cornsilk;
+    border: 1px solid black;
+    text-align: center;
+    padding: 1%;
+}
+
+nav >ul >li:hover{
+    background-color: azure;
+}
+
+.imagenPrimeraSeccion{
+    background-image: url(../img/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+  
+}
+
+.imagenPrimeraSeccion > p{
+    margin: 10%;
+    font-size: 400%;
+    font-size-adjust: auto;
+    font-weight: 900;
+    
+    
+} 
+
+#seccion2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h1{
+    font-family: helvetica;
+    font-size: 200%;
+}
+.contenedoresImagenes-descripcion{
+    display: flex;
+    align-items: center;
+    
+}
+
+.contenedoresImagenes-descripcion >img{
+    width: 50%;
+    height: 50%;
+    padding: 2%;
+}
+
+.contenedoresImagenes-descripcion >p{
+    width: 50%;
+    height: 50%;
+    padding: 2%;
+}
+
+#contenedorVideo{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#contenedorVideo > h1{
+    padding: 2%;
+}
+
+.video{
+    width: 80%;
+    margin: 5%;
+    margin-top: 1%;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#formulario > h1{
+     padding: 2%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    
+}
+
+.formMargin{
+    
+    margin: 1%;
+    padding: 2%;
+}
+
+.formMargin:focus{
+    outline: 0;    
+}
+form > button{
+    background-color: darkgray;
+    width: 100%;
+    border: none;
+    padding: 1%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%; 
+    background-color: black;
+    color: cornsilk;
+    padding: 2%;
+    font-family: helvetica;
+    font-size: 80%;
+}
