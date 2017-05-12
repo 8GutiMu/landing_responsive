@@ -1,40 +1,41 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    
 }
 
-nav{
-    background-color: gainsboro;
+nav {
+    background-color: #ffbf00;
 }
-nav >ul{
+
+nav>ul {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     height: 2%;
-    padding: 1%
+
 }
 
-nav > ul > li{
+nav>ul>li {
     width: 6.5%;
     list-style: none;
-    font-family: helvetica;
+    font-family: luna;
     font-size: 80%;
-    background-color: cornsilk;
-    border: 1px solid black;
     text-align: center;
     padding: 1%;
 }
 
-nav >ul >li:hover{
+nav>ul>li:hover {
     background-color: azure;
 }
 
-.navMobile{
+.navMobile {
+    display: none;
+}
+.menuMobile{
     display: none;
 }
 
-.imagenPrimeraSeccion{
+.imagenPrimeraSeccion {
     background-image: url(../img/img01.jpg);
     background-size: cover;
     height: 500px;
@@ -43,11 +44,9 @@ nav >ul >li:hover{
     justify-content: center;
     align-items: center;
     margin-bottom: 2%;
-    
-  
 }
 
-.imagenPrimeraSeccion > p{
+.imagenPrimeraSeccion>p {
     margin: 10%;
     font-size: 400%;
     font-size-adjust: auto;
@@ -56,100 +55,95 @@ nav >ul >li:hover{
     text-align: center;
     color: white;
     text-shadow: 2px 2px #000;
-    
-    
-    
-} 
+}
 
-#seccion2{
+#seccion2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
-h1{
-    font-family: helvetica;
+h1 {
+    font-family: luna;
     font-size: 200%;
     text-align: center;
 }
-.contenedoresImagenes-descripcion{
+
+.contenedoresImagenes-descripcion {
     display: flex;
     align-items: center;
-    
 }
 
-.contenedoresImagenes-descripcion >img{
+.contenedoresImagenes-descripcion>img {
     width: 50%;
     height: 50%;
     padding: 2%;
 }
 
-.contenedoresImagenes-descripcion >p{
+.contenedoresImagenes-descripcion>p {
     width: 50%;
     height: 50%;
     padding: 2%;
 }
 
-#contenedorVideo{
-    background-color: gray;
+#contenedorVideo {
+    background-color: #ffbf00;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
-#contenedorVideo > h1{
+#contenedorVideo>h1 {
     padding: 2%;
 }
 
-.video{
+.video {
     width: 80%;
     margin: 5%;
     margin-top: 1%;
 }
 
-#formulario{
+#formulario {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#formulario > h1{
-     padding: 2%;
+#formulario>h1 {
+    padding: 2%;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     width: 60%;
-    
 }
 
-.formMargin{
-    
+.formMargin {
     margin: 1%;
     padding: 2%;
 }
 
-.formMargin:focus{
-    outline: 0;    
+.formMargin:focus {
+    outline: 0;
 }
-form > button{
-    background-color: darkgray;
+
+form>button {
+    font-family: luna;
+    background-color: #ffbf00;
     width: 100%;
     border: none;
     padding: 1%;
+    margin: 1%;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: center;
-    margin-top: 2%; 
+    margin-top: 2%;
     background-color: black;
     color: cornsilk;
     padding: 2%;
     font-family: helvetica;
     font-size: 80%;
 }
-

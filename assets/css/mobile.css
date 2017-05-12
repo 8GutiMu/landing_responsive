@@ -14,7 +14,7 @@
     }
     
     #formulario{
-        background-color: gray;
+        background-color: #ffbf00;
         padding-bottom: 4%;
         
     }
@@ -26,7 +26,7 @@
     
     .navMobile{
         display: flex;
-        background-color: grey;
+        background-color: #ffbf00;
         height: 6%;
         justify-content: flex-end;
         padding-right: 10px;
@@ -35,5 +35,29 @@
     .material-icons.md-48 { 
         font-size: 48px; 
         color: aliceblue;
+        
+    }
+    
+    .menuMobile{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #ffbf00;
+        
+        
+        
+    }
+    
+    .menuMobile > div{
+         margin: 1%;
+    }
+    
+   
+    .menuMobile > div >a{
+        text-decoration: none;
+        font-family: helvetica;
+        font-weight: 600;
+        color: black;
+       
     }
 }
